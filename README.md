@@ -6,12 +6,6 @@ CertEagle is a cybersecurity dashboard designed to provide a centralized interfa
 
 ---
 
-## 📸 Dashboard Preview
-
-![CertEagle Dashboard](https://github.com/Yuvatejayeturi/project/raw/main/dashboard.png)
-
----
-
 ## ✨ Features
 
 - 📊 Security Overview Dashboard
