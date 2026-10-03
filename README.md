@@ -1,62 +1,59 @@
+# 🛡️ CertEagle
 
-# CertEagle
+### Cybersecurity Certificate & Phishing Monitoring Dashboard
 
-## Cybersecurity Certificate & Phishing Monitoring Dashboard
+CertEagle is a cybersecurity dashboard designed to provide a centralized interface for monitoring phishing threats, Certificate Transparency activity, security alerts, and threat analytics.
 
-CertEagle is a cybersecurity dashboard designed to provide a centralized interface for monitoring phishing threats, Certificate Transparency activity, and security alerts.
+---
 
-## Features
+## 📸 Dashboard Preview
+
+![CertEagle Dashboard](https://github.com/Yuvatejayeturi/project/raw/main/dashboard.png)
+
+---
+
+## ✨ Features
 
 - 📊 Security Overview Dashboard
 - 🔍 Phishing Detection
-- 📜 Certificate Transparency (CT) Monitoring
+- 📜 Certificate Transparency Monitoring
 - 🔔 Security Alerts Panel
-- 📈 Interactive charts
-- 🌐 Threat monitoring
-- 📋 Security event tables
-- 🔎 Domain and security activity monitoring
+- 📈 Interactive Security Charts
+- 🌐 Threat Monitoring
+- 📋 Security Event Tables
+- 🔎 Domain and Security Activity Monitoring
 
-## Technologies Used
+---
 
-- React.js
-- Vite
-- JavaScript
-- Tailwind CSS
-- React Router
-- Chart.js
-- React Chart.js 2
-- Lucide React
+## 🛠️ Technologies Used
 
-## Project Structure
+| Technology | Purpose |
+|---|---|
+| ⚛️ React.js | Frontend development |
+| ⚡ Vite | Development and build tool |
+| 🎨 Tailwind CSS | User interface styling |
+| 🧭 React Router | Application navigation |
+| 📊 Chart.js | Data visualization |
+| 📈 React Chart.js 2 | React chart integration |
+| 🧩 Lucide React | Interface icons |
+| 💻 JavaScript | Application logic |
+
+---
+
+## 📂 Project Structure
 
 ```text
-certeagle-dashboard/
+CertEagle/
 │
 ├── src/
 │   ├── components/
-│   │   ├── Button.jsx
-│   │   ├── Card.jsx
-│   │   ├── DoughnutChart.jsx
-│   │   ├── LineChart.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── Sidebar.jsx
-│   │   └── Table.jsx
-│   │
 │   ├── pages/
-│   │   ├── Dashboard.jsx
-│   │   ├── PhishingDetection.jsx
-│   │   ├── CTMonitor.jsx
-│   │   └── AlertsPanel.jsx
-│   │
 │   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
+│   └── main.jsx
 │
+├── public/
 ├── index.html
 ├── package.json
-├── package-lock.json
 ├── tailwind.config.js
-├── postcss.config.js
 ├── vite.config.js
-└── .gitignore
-```
+└── README.md
